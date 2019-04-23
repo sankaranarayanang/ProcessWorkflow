@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+  
+   </head>
+   
+   <body ng-app = "pwapp">
+      <div ng-controller = "HomeController" >
+         <h2>Welcome {{helloTo.title}} to the world of {{helloTo.company}}</h2>
+      </div>
+          <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+      <script>
+         angular.module("pwapp", [])
+         
+         .controller("HomeController", function($scope) {
+            $scope.helloTo = {};
+            $scope.helloTo.title = "Sankaranarayanan";
+			$scope.helloTo.company = "CTS";
+         });
+      </script>
+   </body>
+</html>

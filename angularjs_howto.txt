@@ -1,0 +1,30 @@
+https://stackoverflow.com/questions/29528922/how-to-create-a-localhost-server-to-run-an-angularjs-project
+Before doing below steps, please install node and run below command
+If you're running node.js http-server is super easy.
+
+Install
+
+npm install -g http-server
+After installation cd into your project folder and run
+
+http-server -o 
+-o is to open browser to the page. Run http-server --help to view other options such as changing the port number
+
+1)Open Node js cmd prompt
+2)Navigate to the project folder which is having angularjs code
+3)run the command http-server -o to start the server
+
+Your environment has been set up for using Node.js 9.7.1 (x64) and npm.
+
+C:\Users\659029>d:
+
+D:\>cd angularjs
+
+D:\angularjs>http-server -o
+Starting up http-server, serving ./
+Available on:
+  http://10.242.44.223:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+
+http://10.242.44.223:8080/PW.html
